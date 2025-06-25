@@ -16,6 +16,20 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+    <style>
+    /* 隱藏右上角 GitHub 連結與選單 */
+    #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
+    
+    /* 隱藏右下角 "Made with Streamlit" 與使用者頭像 */
+    footer {visibility: hidden;}
+
+    /* 隱藏 Streamlit 登入區域（頭像） */
+    [data-testid="stToolbar"] {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 st.markdown(
     """
     <style>
