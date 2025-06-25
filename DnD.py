@@ -9,6 +9,13 @@ st.set_page_config(
     layout = 'centered'
 )
 
+st.markdown("""
+    <style>
+    header {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 st.markdown(
     """
     <style>
