@@ -451,9 +451,9 @@ def content_tab12():
     expander = st.expander("岩石峭壁")
     expander.write("這些峭壁直插雲霄，從高處俯瞰下去，可以看到整個地中海的壯麗景觀。岩壁上有許多由自然力量形成的奇異洞窟，風力強烈，常常使得這些峭壁成為危險的障礙。這些岩壁的登攀是一次極大的挑戰，任何失誤都可能掉入深不見底的深谷。")
     expander.image("DND 照片2/岩石峭壁.jpeg", caption="岩石峭壁", use_container_width=True)
-    expander.subheader("無名英雄")
-    expander.write("這五位無名英雄身形高大、肌肉結實，面容棱角分明，眼神堅毅，透露著無畏的勇氣。臉上有著戰鬥的疤痕與深深的皺紋，皮膚顯得粗糙而結實。")
-    expander.image("DND 照片2/無名英雄.jpeg", caption="無名英雄", use_container_width=True)
+    #expander.subheader("無名英雄")
+    #expander.write("這五位無名英雄身形高大、肌肉結實，面容棱角分明，眼神堅毅，透露著無畏的勇氣。臉上有著戰鬥的疤痕與深深的皺紋，皮膚顯得粗糙而結實。")
+    #expander.image("DND 照片2/無名英雄.jpeg", caption="無名英雄", use_container_width=True)
 
     expander = st.expander("牛群草原")
     expander.write("牛群所在的領地是一片寬廣的草原，巨人已經在這片區域布下了陷阱，並且他對自己的牛群充滿保護欲。每一頭牛都有強烈的領地意識，它們對異物的氣息極為敏感。")
