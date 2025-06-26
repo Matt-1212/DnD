@@ -529,9 +529,9 @@ def content_tab15():
     st.checkbox("九泉之下：？？？")
 
 
-#def content_default(tab_title):
-    #st.header(f"{tab_title}（內容範例）")
-    #st.write("這裡是範例內容。請填入實際模組資料。")
+def content_default(tab_title):
+    st.header(f"{tab_title}（內容範例）")
+    st.write("這裡是範例內容。請填入實際模組資料。")
 
 # 通關驗證邏輯（支援單一密碼或多密碼）
 def gated_content(tab, password_required, content_function, tab_title):
