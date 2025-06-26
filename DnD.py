@@ -571,21 +571,20 @@ tabs = st.tabs([title for title, _ in tabs_config])
 custom_tab_functions = {
     "模組簡介": content_tab1,
     "雅典城": content_tab2,
-    "1": content_tab3,
-    "2": content_tab4,
-    "3": content_tab5,
-    "4": content_tab6,
-    "5": content_tab7,
-    "6": content_tab8,
-    "7": content_tab9,
-    "8": content_tab10,
-    "9": content_tab11,
-    "10": content_tab12,
-    "11": content_tab13,
-    "12": content_tab14,
+    "涅墨亞獅子": content_tab3,
+    "九頭蛇海德拉": content_tab4,
+    "克列尼亞牝鹿": content_tab5,
+    "厄律曼托斯山野豬": content_tab6,
+    "奧格阿斯牛廄": content_tab7,
+    "斯廷法利斯湖怪鳥": content_tab8,
+    "克里特公牛": content_tab9,
+    "狄俄墨得斯牝馬": content_tab10,
+    "亞馬遜王國": content_tab11,
+    "格律翁牛群": content_tab12,
+    "聖園": content_tab13,
+    "冥界": content_tab14,
     "成就表": content_tab15,  # 其他 tab 可擴充
 }
-
 
 #custom_tab_functions = {
     #"模組簡介": content_tab1,
