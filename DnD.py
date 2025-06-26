@@ -568,43 +568,44 @@ def gated_content(tab, password_required, content_function, tab_title):
 tabs = st.tabs([title for title, _ in tabs_config])
 
 # 指定哪些 tab 用哪個內容函數
-#custom_tab_functions = {
-    #"模組簡介": content_tab1,
-    #"雅典城": content_tab2,
-    #"獅子": content_tab3,
-    #"九頭蛇": content_tab4,
-    #"牝鹿": content_tab5,
-    #"野豬": content_tab6,
-    #"牛廄": content_tab7,
-    #"怪鳥": content_tab8,
-    #"公牛": content_tab9,
-    #"牝馬": content_tab10,
-    #"亞馬遜": content_tab11,
-    #"牛群": content_tab12,
-    #"聖園": content_tab13,
-    #"冥界": content_tab14,
-    #"成就表": content_tab15,
-    # 其他 tab 可擴充
-#}
-
 custom_tab_functions = {
     "模組簡介": content_tab1,
     "雅典城": content_tab2,
-    "1": content_tab3,
-    "2": content_tab4,
-    "3": content_tab5,
-    "4": content_tab6,
-    "5": content_tab7,
-    "6": content_tab8,
-    "7": content_tab9,
-    "8": content_tab10,
-    "9": content_tab11,
-    "10": content_tab12,
-    "11": content_tab13,
-    "12": content_tab14,
+    "獅子": content_tab3,
+    "九頭蛇": content_tab4,
+    "牝鹿": content_tab5,
+    "野豬": content_tab6,
+    "牛廄": content_tab7,
+    "怪鳥": content_tab8,
+    "公牛": content_tab9,
+    "牝馬": content_tab10,
+    "亞馬遜": content_tab11,
+    "牛群": content_tab12,
+    "聖園": content_tab13,
+    "冥界": content_tab14,
     "成就表": content_tab15,
     # 其他 tab 可擴充
 }
+
+
+#custom_tab_functions = {
+    #"模組簡介": content_tab1,
+    #"雅典城": content_tab2,
+    #"1": content_tab3,
+    #"2": content_tab4,
+    #"3": content_tab5,
+    #"4": content_tab6,
+    #"5": content_tab7,
+    #"6": content_tab8,
+    #"7": content_tab9,
+    #"8": content_tab10,
+    #"9": content_tab11,
+    #"10": content_tab12,
+    #"11": content_tab13,
+    #"12": content_tab14,
+    #"成就表": content_tab15,
+    # 其他 tab 可擴充
+#}
 
 # 配對並執行每個 tab 的內容與密碼驗證
 for i, (tab_title, password) in enumerate(tabs_config):
