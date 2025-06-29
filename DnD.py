@@ -310,9 +310,9 @@ def content_tab8():
     st.write("斯廷法利斯湖怪鳥，其形如夜鷹與鷲鷹混種，羽毛呈現金屬質地，銅銳如刃，微風拂動便能嗆聲如刃鳴。雙翅扇動時捲起鐵鏽與羽刃風暴。牠們的喙可裂甲啄骨，利爪則鋒利如鐵鉤，能輕易撕裂護甲與盾牌。當群鳥齊飛，宛如鐵雨傾瀉，片甲不留。")
     st.image("DND 照片/斯廷法利斯湖.jpeg", caption="斯廷法利斯湖", use_container_width=True)
 
-    #st.subheader("湖中遺跡")
-    #st.write("半沉於湖中的一座古老神殿。現在堆滿了鋒利金屬羽毛與半融化的盔甲。")
-    #st.image("DND 照片/湖中遺跡.jpeg", caption="湖中遺跡", use_container_width=True)
+    st.subheader("湖中遺跡")
+    st.write("半沉於湖中的一座古老神殿。現在堆滿了鋒利金屬羽毛與半融化的盔甲。")
+    st.image("DND 照片/湖中遺跡.jpeg", caption="湖中遺跡", use_container_width=True)
 
     st.subheader("幽靈女戰士梅麗瑟")
     st.write("梅麗瑟的幽魂在湖畔的濃霧中時隱時現，身披斷裂破碎的胸甲。她的長髮隨靈氣無風而舞，雙眼泛著冷光，如同湖水下未解的怒意。她的身體半透明、散發微光，她說話時聲音低沉空靈，彷彿從水底傳出，語氣中充滿不甘與執著。")
