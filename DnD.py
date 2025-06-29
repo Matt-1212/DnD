@@ -314,9 +314,9 @@ def content_tab8():
     #st.write("半沉於湖中的一座古老神殿。現在堆滿了鋒利金屬羽毛與半融化的盔甲。")
     #st.image("DND 照片/湖中遺跡.jpeg", caption="湖中遺跡", use_container_width=True)
 
-    #st.subheader("幽靈女戰士梅麗瑟")
-    #st.write("梅麗瑟的幽魂在湖畔的濃霧中時隱時現，身披斷裂破碎的胸甲。她的長髮隨靈氣無風而舞，雙眼泛著冷光，如同湖水下未解的怒意。她的身體半透明、散發微光，她說話時聲音低沉空靈，彷彿從水底傳出，語氣中充滿不甘與執著。")
-    #st.image("DND 照片/斯廷法利斯湖女戰士.jpeg", caption="幽靈女戰士梅麗瑟", use_container_width=True)
+    st.subheader("幽靈女戰士梅麗瑟")
+    st.write("梅麗瑟的幽魂在湖畔的濃霧中時隱時現，身披斷裂破碎的胸甲。她的長髮隨靈氣無風而舞，雙眼泛著冷光，如同湖水下未解的怒意。她的身體半透明、散發微光，她說話時聲音低沉空靈，彷彿從水底傳出，語氣中充滿不甘與執著。")
+    st.image("DND 照片/斯廷法利斯湖女戰士.jpeg", caption="幽靈女戰士梅麗瑟", use_container_width=True)
 
 def content_tab9():
     st.header("制服克里特島狂暴公牛")
