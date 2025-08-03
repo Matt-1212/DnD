@@ -525,7 +525,7 @@ def content_tab15():
     st.write("四、額外的迷惑行為")
     st.checkbox("亡命之徒：？？？")
     st.checkbox("不智之舉：？？？")
-    st.checkbox("眾矢之的：？？？")
+    st.checkbox("眾矢之的：在一次神諭中與所有出現之 NPC 進行戰鬥")
     st.checkbox("九泉之下：？？？")
 
 
